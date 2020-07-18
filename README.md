@@ -4,15 +4,15 @@
 El programa debe contener : :notebook_with_decorative_cover:  \
 -[x] Acceso público, protegido o privado \
 -[x] Sobrecarga de métodos \ 
--[x] Encapsulación  \
+-[x] Encapsulación 
 -[x] La palabra this  \
 -[x] Constructores \ 
--[x] Herencia  \
+-[x] Herencia  
 -[x] Llamadas de constructor de clase base  \
 -[x] Métodos virtuales \ 
 -[x] Ocultamiento de métodos  \
 -[x] Clases abstractas \
--[x] Polimorfismo \ 
+-[x] Polimorfismo 
 
 :file_folder: \
 *En la aplicación de consola hay un apartado de colocar un número de acuerdo a la posición en la que se encuentra el artículo*
