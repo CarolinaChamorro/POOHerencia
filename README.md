@@ -25,5 +25,3 @@ Volviendo a la aplicación de consolsa, esta consta de: \
 :point_right: -Existe interacción. \
 :point_right: -Complila correctamente.  
 
-:file_folder: \
-*Basicamente mi aplicación de consolsa se visusaliza entres un sistema de simulación de ventas*
