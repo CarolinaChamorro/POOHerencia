@@ -3,15 +3,15 @@
 ### Tema: Simulación de un sistema de ventas.  
 El programa debe contener : :notebook_with_decorative_cover:  \
 -[x] Acceso público, protegido o privado \
--[x] Sobrecarga de métodos \ 
--[x] Encapsulación \
--[x] La palabra this \
--[x] Constructores \ 
--[x] Herencia \
--[x] Llamadas de constructor de clase base \
--[x] Métodos virtuales \ 
--[x] Ocultamiento de métodos  \
--[x] Clases abstractas \
+-[x] Sobrecarga de métodos  
+-[x] Encapsulación  
+-[x] La palabra this  
+-[x] Constructores   
+-[x] Herencia  
+-[x] Llamadas de constructor de clase base  
+-[x] Métodos virtuales   
+-[x] Ocultamiento de métodos  
+-[x] Clases abstractas  
 -[x] Polimorfismo 
 
 :file_folder: \
