@@ -5,9 +5,7 @@ namespace SolucionAppLogica
     public  class Cliente:Persona
     {
         public Cliente():base()
-        {
-
-        }
+        {}
         Computadora computadora;
         public Computadora Micomputadora
         {

@@ -235,9 +235,6 @@ namespace ConsolaPooHerencia
             Console.WriteLine($"{clienteSatisfecho3.Nombre} adquirió una televisión {clienteSatisfecho3.Mitv.Modelo} {clienteSatisfecho3.Mitv.Marca}," +
                 $"{clienteSatisfecho3.Mireloj.Modelo} {clienteSatisfecho3.Mireloj.Marca} y {clienteSatisfecho3.Micomputadora.Modelo} {clienteSatisfecho3.Micomputadora.Marca}");
 
-
-
-
             Console.ReadKey();
 
 

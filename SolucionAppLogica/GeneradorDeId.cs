@@ -16,11 +16,5 @@ namespace SolucionAppLogica
         {
            this.Id = id;
         }
-        protected GeneradorDeId(string id)
-            
-        {
-            this.Id = Convert.ToInt32(id);
-          
-        }
     }
 }

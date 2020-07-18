@@ -6,7 +6,6 @@ namespace SolucionAppLogica
 {
     public class RelojDigital : ProductoTecnologico
     {
-
         public RelojDigital() : base()
         { }
         public static DateTime Now { get; }

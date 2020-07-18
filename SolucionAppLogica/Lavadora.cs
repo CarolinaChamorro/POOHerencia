@@ -11,9 +11,7 @@ namespace SolucionAppLogica
         public string TipoDeLavado { get; set; }
         public float ConsumoElectrico { get; set; }
         public Lavadora():base()
-        {
-
-        }
+        {}
         public Lavadora(string modelo,string marca, float costo)
         {
             Modelo = modelo;

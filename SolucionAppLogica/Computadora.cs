@@ -7,8 +7,10 @@ namespace SolucionAppLogica
     {
         public string Almacenamiento { get; set; }
         public string Generacion { get; set; }
+
         public Computadora():base()
         { }
+
         public Computadora(string modelo, string marca, string almacenamiento, string generacion, float costo)
         {
             Modelo = modelo;

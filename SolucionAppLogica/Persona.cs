@@ -6,8 +6,6 @@ namespace SolucionAppLogica
         public string Nombre { get; set; }
 
         public Persona():base()
-        {
-            
-        }
+        {}
     }
 }

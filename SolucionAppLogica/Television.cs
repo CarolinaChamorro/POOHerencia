@@ -6,6 +6,7 @@ namespace SolucionAppLogica
     {
         public Television():base()
         {}
+
         public Television(string modelo, string marca, float costo)
         {
             Modelo = modelo;

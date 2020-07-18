@@ -12,9 +12,7 @@ namespace SolucionAppLogica
         public string TipoDeIluminacion { get; set; }
 
         public Refrigeradora():base()
-        {
-
-        }
+        {}
         public Refrigeradora(string modelo, string marca, float costo)
         {
             Modelo = modelo;
