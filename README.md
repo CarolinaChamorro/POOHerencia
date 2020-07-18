@@ -2,9 +2,9 @@
 ## Aplicación den consola :bulb:
 ### Tema: Simulación de un sistema de ventas.  
 El programa debe contener : :notebook_with_decorative_cover:  \
--[x] Acceso público, protegido o privado  \
+-[x] Acceso público, protegido o privado \
 -[x] Sobrecarga de métodos \ 
--[x] Encapsulación \
+-[x] Encapsulación  \
 -[x] La palabra this  \
 -[x] Constructores \ 
 -[x] Herencia  \
