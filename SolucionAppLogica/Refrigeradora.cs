@@ -21,11 +21,11 @@ namespace SolucionAppLogica
         }
         public new string Encender()
         {
-            return $"{this.Modelo} {this.Marca} {base.Encender()} ";
+            return $"{this.Marca} {base.Encender()} ";
         }
         public new string Apagar()
         {
-            return $"{this.Modelo} {base.Apagar()} {base.Apagar()}";
+            return $"{this.Marca} {base.Apagar()} {base.Apagar()}";
         }
         public string AbrirRefri()
         {

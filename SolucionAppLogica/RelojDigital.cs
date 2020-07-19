@@ -36,9 +36,12 @@ namespace SolucionAppLogica
         {
             return $"{base.Apagar()} {this.Modelo} {base.Apagar()}";
         }
-        public  string  ContarPasos( int km)
+        public  string  ContarPasos( )
         {
-            return $"En {km} metros ha dado {km*500} ";
+            int paso = 500;
+            Random km = new Random();
+            int numeroPaso = km.Next(1, 7);
+            return $"En {numeroPaso} metros ha dado {numeroPaso*paso} pasos ";
         }
         public static string Notificaciones(string app)
         {

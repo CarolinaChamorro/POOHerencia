@@ -149,7 +149,7 @@ namespace ConsolaPooHerencia
                         Console.WriteLine($"{reloj1.Describir()}");
                         Console.WriteLine($"Funcionalidades:");
                         Console.WriteLine($"{reloj1.Encender()}");
-                        Console.WriteLine($"{reloj1.ContarPasos(4)}");
+                        Console.WriteLine($"{reloj1.ContarPasos()}");
                         Console.WriteLine($"{reloj1.TomarPulso()}");
                         Console.WriteLine($"{reloj1.Apagar()}");
                         break;
@@ -158,7 +158,7 @@ namespace ConsolaPooHerencia
                         Console.WriteLine($"{reloj2.Describir()}");
                         Console.WriteLine($"Funcionalidades:");
                         Console.WriteLine($"{reloj2.Encender()}");
-                        Console.WriteLine($"{reloj2.ContarPasos(4)}");
+                        Console.WriteLine($"{reloj2.ContarPasos()}");
                         Console.WriteLine($"{reloj2.TomarPulso()}");
                         Console.WriteLine($"{reloj2.Apagar()}");
                         break;
