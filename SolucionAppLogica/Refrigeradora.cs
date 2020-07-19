@@ -21,7 +21,7 @@ namespace SolucionAppLogica
         }
         public new string Encender()
         {
-            return $" {this.Modelo} {this.Marca} {base.Encender()} ";
+            return $"{this.Modelo} {this.Marca} {base.Encender()} ";
         }
         public new string Apagar()
         {

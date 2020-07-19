@@ -46,7 +46,7 @@ namespace SolucionAppLogica
         }
         public virtual string Describir()
         {
-            return $"Su equipo de tecnologico {this.Modelo} {this.Marca}  tiene un costo de: {this.Costo}";
+            return $"Su equipo tecnologico {this.Modelo} {this.Marca}  tiene un costo de: {this.Costo}";
         }
 
 

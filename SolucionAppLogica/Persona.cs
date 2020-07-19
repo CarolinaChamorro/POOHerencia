@@ -1,4 +1,5 @@
 ﻿
+
 namespace SolucionAppLogica
 {
     public class Persona:GeneradorDeId

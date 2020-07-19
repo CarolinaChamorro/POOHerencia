@@ -34,11 +34,11 @@ namespace SolucionAppLogica
         }
         public new string Encender()
         {
-            return $" {this.Modelo} {this.Marca} {base.Encender()} ";
+            return $"{this.Modelo} {this.Marca} {base.Encender()} ";
         }
         public new string Apagar()
         {
-            return $" {this.Modelo} {base.Apagar()} {base.Apagar()}";
+            return $"{this.Modelo} {base.Apagar()} {base.Apagar()}";
         }
     }
 }

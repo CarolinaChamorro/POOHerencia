@@ -93,7 +93,7 @@ namespace SolucionAppLogica
         }
 
         //saludar
-        public string Saludar( string nombre)
+        public static string Saludar( string nombre)
         {
             return $"Buen dia {nombre}, ¿Me podría ayudar?";
         }     

@@ -7,7 +7,7 @@ namespace SolucionAppLogica
         {}
         public virtual string Encender()
         {
-            return $"encendiendo";
+            return $"encendiendo ";
         }
         public virtual string Apagar()
         {

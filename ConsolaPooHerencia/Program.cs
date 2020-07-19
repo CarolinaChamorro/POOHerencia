@@ -122,7 +122,7 @@ namespace ConsolaPooHerencia
                         Console.WriteLine($"{cel2.Describir()}");
                         Console.WriteLine($"Funcionalidades:");
                         Console.WriteLine($"{cel2.Encender()}");
-                        Console.WriteLine($"{cel2.Conectar("red-Carolina")}");
+                        Console.WriteLine($"{cel2.Conectar("red-Administrador")}");
                         Console.WriteLine($"{cel2.Describir("Baja")}");
                         Console.WriteLine($"{cel2.Apagar()}");
                         break;

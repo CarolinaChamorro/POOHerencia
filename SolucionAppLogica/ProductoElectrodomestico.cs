@@ -12,7 +12,7 @@ namespace SolucionAppLogica
         {}
         public void VerListaElectro()
         {
-            Console.WriteLine($"-- {this.Modelo} {this.Marca}  tiene un costo de: {this.Costo}");
+            Console.WriteLine($"-- {this.Modelo} {this.Marca} tiene un costo de: {this.Costo}");
         }
     }
 }
