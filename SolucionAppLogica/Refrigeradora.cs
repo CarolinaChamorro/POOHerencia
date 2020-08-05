@@ -1,6 +1,4 @@
-﻿
-using System;
-using System.Globalization;
+﻿using System;
 
 namespace SolucionAppLogica
 {
@@ -11,7 +9,7 @@ namespace SolucionAppLogica
         public string TipoDeDescongelacion { get; set; }
         public string TipoDeIluminacion { get; set; }
 
-        public Refrigeradora():base()
+        protected Refrigeradora():base()
         {}
         public Refrigeradora(string modelo, string marca, float costo)
         {

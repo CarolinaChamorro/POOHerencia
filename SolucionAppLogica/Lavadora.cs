@@ -1,7 +1,4 @@
-﻿
-using System;
-using System.Buffers.Text;
-using System.Runtime.CompilerServices;
+﻿using System;
 
 namespace SolucionAppLogica
 {
@@ -10,7 +7,7 @@ namespace SolucionAppLogica
         public float Peso { get; set; }
         public string TipoDeLavado { get; set; }
         public float ConsumoElectrico { get; set; }
-        public Lavadora():base()
+        protected Lavadora():base()
         {}
         public Lavadora(string modelo,string marca, float costo)
         {

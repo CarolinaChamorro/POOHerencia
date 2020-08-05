@@ -1,13 +1,10 @@
-﻿
-using System.Runtime.CompilerServices;
-
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
     public class Celular:ProductoTecnologico
     {
         public string Almacenamiento { get; set; }
         public string MemoriaRam { get; set; }
-        public Celular():base()
+        protected Celular():base()
         {
 
         }

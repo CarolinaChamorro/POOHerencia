@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
    public  class Television:ProductoElectrodomestico
     {
-        public Television():base()
+        protected Television():base()
         {}
 
         public Television(string modelo, string marca, float costo)

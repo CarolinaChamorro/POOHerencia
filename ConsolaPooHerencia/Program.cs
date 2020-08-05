@@ -73,7 +73,7 @@ namespace ConsolaPooHerencia
             Console.WriteLine($"------------------------------------------------------");
             Console.WriteLine("Ingrese su nombre");
             var nombreCliente=Console.ReadLine();
-            Console.WriteLine($"*Bienvenidos {nombreCliente}");
+            Console.WriteLine($"*Bienvenido/a {nombreCliente}");
             
             //Opciones
             Console.WriteLine("¿Qué opción escoges?: ");
@@ -103,7 +103,8 @@ namespace ConsolaPooHerencia
 
             if(opcionAparato=="a")
             {
-                Console.WriteLine("¿Qué vas a comprar?:Coloca el numero de la posición del articulo ");
+                Console.WriteLine("¿Qué vas a comprar?:Coloca un número del 1 al 6 de acuerdo" +
+                    "a la posición del articulo ");
                 var opcionA = Console.ReadLine();
                 switch (opcionA)
                 {
@@ -166,7 +167,7 @@ namespace ConsolaPooHerencia
             }
             if(opcionAparato=="b")
             {
-                Console.WriteLine("¿Qué vas a comprar?:Coloca el numero de la posición del articulo");
+                Console.WriteLine("¿Qué vas a comprar?:Coloca un número del 1 al 6 de acuerdo la posición del articulo");
                 var opcionB = Console.ReadLine();
                 switch (opcionB)
                 {

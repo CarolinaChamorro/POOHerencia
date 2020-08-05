@@ -2,10 +2,11 @@
 
 namespace SolucionAppLogica
 {
-    public  class GeneradorDeId
+    public abstract class GeneradorDeId
     {
+        private int id;
         private readonly Random generador = new Random();
-        public  int Id { get; set; }
+        public  int Id { get { return id; } set { id = value; } }
 
         protected GeneradorDeId()
         {

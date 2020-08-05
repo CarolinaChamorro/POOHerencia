@@ -1,6 +1,4 @@
-﻿
-
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
     public class Computadora:ProductoTecnologico
 
@@ -8,7 +6,7 @@ namespace SolucionAppLogica
         public string Almacenamiento { get; set; }
         public string Generacion { get; set; }
 
-        public Computadora():base()
+        protected Computadora():base()
         { }
 
         public Computadora(string modelo, string marca, string almacenamiento, string generacion, float costo)

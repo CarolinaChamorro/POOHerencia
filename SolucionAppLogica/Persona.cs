@@ -1,8 +1,6 @@
-﻿
-
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
-    public class Persona:GeneradorDeId
+    public abstract class Persona:GeneradorDeId
     {
         public string Nombre { get; set; }
 

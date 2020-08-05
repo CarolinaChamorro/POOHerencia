@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
-    public  class Cliente:Persona
+    public class Cliente:Persona
     {
         public Cliente():base()
         {}

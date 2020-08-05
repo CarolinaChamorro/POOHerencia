@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace SolucionAppLogica
 {
@@ -7,7 +6,7 @@ namespace SolucionAppLogica
     {
         public string Modelo { get; set; }
         public string Marca { get; set; }
-        public float Costo { get; set; }
+        public virtual float Costo { get; set; }
         protected ProductoElectrodomestico():base()
         {}
         public void VerListaElectro()

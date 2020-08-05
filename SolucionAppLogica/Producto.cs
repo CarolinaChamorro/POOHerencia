@@ -1,5 +1,4 @@
-﻿
-namespace SolucionAppLogica
+﻿namespace SolucionAppLogica
 {
     public abstract class Producto:GeneradorDeId
     {
